@@ -1,0 +1,22 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main (){
+  
+
+  
+ int v,e;
+int e1,e2;
+bool both=false;
+
+cin>>v>>e;
+vector<vector<bool>>  matrix (v,vector<bool> (v,0));
+
+int i;
+for( i=0  ;   i<e  ;  i++){
+    cin>>e1>>e2;
+    matrix[e1][e2]=true;
+}
+return 0;}
