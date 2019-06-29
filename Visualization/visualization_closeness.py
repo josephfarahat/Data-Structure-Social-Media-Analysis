@@ -1,6 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-
+#Closeness Centrality
 G=nx.Graph()
 nodes = nx.read_adjlist("nodes.txt")
 G.add_nodes_from(nodes.nodes())
